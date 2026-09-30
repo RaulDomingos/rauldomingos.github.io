@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Raul Domingos — Software Engineer</title>
+<meta name="description" content="Raul Rios Domingos — Engenheiro de Software especializado em React, Next.js, TypeScript e desenvolvimento assistido por IA.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%230b0b0d%22/><text x=%2250%22 y=%2268%22 font-size=%2260%22 fill=%22%23caff33%22 font-family=%22sans-serif%22 font-weight=%22700%22 text-anchor=%22middle%22>R</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<div class="grain" aria-hidden="true"></div>
+<div class="cursor-dot" aria-hidden="true"></div>
+
+<header class="nav" id="nav">
+  <a href="#top" class="nav-logo">RD<span>.</span></a>
+  <nav class="nav-links" id="navLinks">
+    <a href="#about" data-i18n="nav.about">Sobre</a>
+    <a href="#skills" data-i18n="nav.skills">Skills</a>
+    <a href="#experience" data-i18n="nav.experience">Experiência</a>
+    <a href="#projects" data-i18n="nav.projects">Projetos</a>
+    <a href="#contact" data-i18n="nav.contact">Contato</a>
+  </nav>
+  <div class="nav-actions">
+    <button class="lang-toggle" id="langToggle" aria-label="Toggle language">
+      <span class="lang-pt active">PT</span>/<span class="lang-en">EN</span>
+    </button>
+    <button class="burger" id="burger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero" id="hero">
+    <div class="hero-marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>REACT</span><span>NEXT.JS</span><span>TYPESCRIPT</span><span>NODE.JS</span><span>LARAVEL</span><span>AI-ASSISTED DEV</span>
+        <span>REACT</span><span>NEXT.JS</span><span>TYPESCRIPT</span><span>NODE.JS</span><span>LARAVEL</span><span>AI-ASSISTED DEV</span>
+      </div>
+    </div>
+
+    <h1 class="hero-title">
+      <span class="line">RAUL</span>
+      <span class="line">DOMINGOS<span class="dot">.</span></span>
+    </h1>
+
+    <div class="hero-sub">
+      <p class="hero-role" data-i18n="hero.role">Engenheiro de Software</p>
+      <p class="hero-tagline" data-i18n="hero.tagline">5+ anos construindo produtos web escaláveis com React, Next.js &amp; TypeScript — hoje, potencializado por IA.</p>
+      <a href="#contact" class="btn-primary" data-i18n="hero.cta">Vamos conversar →</a>
+    </div>
+
+    <div class="scroll-cue" data-i18n="hero.scroll">role para baixo</div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="section-head">
+      <span class="section-num">01</span>
+      <h2 data-i18n="about.title">Sobre mim</h2>
+    </div>
+    <div class="about-grid">
+      <p class="about-text" data-i18n="about.body">
+        Engenheiro de software com mais de 5 anos de experiência no desenvolvimento de aplicações web utilizando React, Next.js, TypeScript, JavaScript, PHP, Laravel e Node.js. Experiência na criação de interfaces responsivas, integração de APIs RESTful e entrega de soluções escaláveis para clientes internacionais. Defensor de código limpo, colaboração, aprendizado contínuo e da criação de experiências de usuário intuitivas.
+      </p>
+      <div class="about-side">
+        <div class="lang-block">
+          <span class="label" data-i18n="about.languagesLabel">Idiomas</span>
+          <ul>
+            <li><span>English</span><strong>C1</strong></li>
+            <li><span>Español</span><strong>B1</strong></li>
+            <li><span data-i18n="about.portuguese">Português</span><strong data-i18n="about.native">Nativo</strong></li>
+          </ul>
+        </div>
+        <div class="ai-block">
+          <span class="label" data-i18n="about.aiLabel">Dev assistido por IA</span>
+          <p data-i18n="about.aiBody">Uso ChatGPT, Claude e GitHub Copilot para acelerar entregas, revisar código e automatizar tarefas repetitivas — sem abrir mão de boas práticas de engenharia.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="skills">
+    <div class="section-head">
+      <span class="section-num">02</span>
+      <h2 data-i18n="skills.title">Competências técnicas</h2>
+    </div>
+    <div class="skills-grid">
+
+      <div class="skill-card">
+        <h3 data-i18n="skills.languages">Linguagens</h3>
+        <div class="pills">
+          <span>TypeScript</span><span>JavaScript (ES6+)</span><span>PHP</span><span>C#</span><span>Java</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <h3 data-i18n="skills.frontend">Frontend</h3>
+        <div class="pills">
+          <span>React.js</span><span>Next.js</span><span>HTML5</span><span>CSS3</span><span>Sass</span><span>TailwindCSS</span><span>Material UI</span><span>Styled Components</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <h3 data-i18n="skills.backend">Backend</h3>
+        <div class="pills">
+          <span>Node.js</span><span>Laravel</span><span>Spring Boot</span><span>RESTful APIs</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <h3 data-i18n="skills.databases">Databases</h3>
+        <div class="pills">
+          <span>MongoDB</span><span>MySQL</span><span>PostgreSQL</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <h3 data-i18n="skills.cloud">Cloud &amp; Deploy</h3>
+        <div class="pills">
+          <span>AWS (EC2)</span><span>Kubernetes</span><span>Vercel</span><span>Heroku</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <h3 data-i18n="skills.testing">Testes &amp; Versionamento</h3>
+        <div class="pills">
+          <span>Git</span><span>GitHub</span><span>Cypress</span><span>Selenium</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <h3 data-i18n="skills.tools">Ferramentas &amp; Design</h3>
+        <div class="pills">
+          <span>Figma</span><span>Visual Studio</span><span>Cursor</span><span>VS Code</span><span>IntelliJ</span><span>GitHub Desktop</span>
+        </div>
+      </div>
+
+      <div class="skill-card skill-card-ai">
+        <h3 data-i18n="skills.ai">Desenvolvimento com AI</h3>
+        <div class="pills">
+          <span data-i18n="skills.ai1">Prompt Engineering</span>
+          <span data-i18n="skills.ai2">Depuração assistida por IA</span>
+          <span data-i18n="skills.ai3">Geração de código com IA</span>
+          <span data-i18n="skills.ai4">Revisão de código com IA</span>
+          <span>ChatGPT</span><span>Claude</span><span>GitHub Copilot</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <h3 data-i18n="skills.methodologies">Metodologias</h3>
+        <div class="pills">
+          <span data-i18n="skills.m1">Design Responsivo</span>
+          <span data-i18n="skills.m2">Integração de APIs</span>
+          <span data-i18n="skills.m3">Metodologias Ágeis</span>
+          <span data-i18n="skills.m4">Código Limpo</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section" id="experience">
+    <div class="section-head">
+      <span class="section-num">03</span>
+      <h2 data-i18n="experience.title">Experiência profissional</h2>
+    </div>
+
+    <div class="timeline">
+
+      <article class="job">
+        <div class="job-date">JUL 2024 — JUN 2026</div>
+        <div class="job-body">
+          <h3>WSD Docs</h3>
+          <span class="job-role" data-i18n="exp.wsd.role">Desenvolvedor de Template</span>
+          <ul>
+            <li data-i18n="exp.wsd.b1">Desenvolvi e mantive templates para geração de documentos de produtos financeiros estruturados utilizados por bancos e instituições financeiras internacionais.</li>
+            <li data-i18n="exp.wsd.b2">Trabalhei diretamente com clientes globais para entender requisitos de negócio e implementar regras complexas de produtos estruturados (Autocallables, Memory Autocalls, Snowballs, Digital Plus, Range Accrual, entre outros).</li>
+            <li data-i18n="exp.wsd.b3">Implementei novas funcionalidades, corrigi problemas em produção e aperfeiçoei a arquitetura dos templates existentes utilizando PHP e JavaScript.</li>
+            <li data-i18n="exp.wsd.b4">Utilizei ChatGPT, Claude e GitHub Copilot para acelerar implementação, depuração, documentação e refatoração, mantendo alto padrão de qualidade.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="job">
+        <div class="job-date">JUL 2023 — 2024</div>
+        <div class="job-body">
+          <h3>Loumar Turismo</h3>
+          <span class="job-role" data-i18n="exp.loumar2.role">Desenvolvedor Fullstack</span>
+          <ul>
+            <li data-i18n="exp.loumar2.b1">Desenvolvi aplicações web modernas utilizando React, Next.js, JavaScript e TailwindCSS, com interfaces responsivas baseadas em designs de UI.</li>
+            <li data-i18n="exp.loumar2.b2">Integrei aplicações frontend com APIs REST e colaborei com desenvolvedores backend para entregar funcionalidades de ponta a ponta.</li>
+            <li data-i18n="exp.loumar2.b3">Melhorei a experiência do usuário com componentes reutilizáveis e layouts responsivos.</li>
+            <li data-i18n="exp.loumar2.b4">Utilizei ferramentas de IA (ChatGPT, Claude, GitHub Copilot) para acelerar entregas mantendo qualidade de código.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="job">
+        <div class="job-date">FEV 2022 — JUN 2023</div>
+        <div class="job-body">
+          <h3>Braza Tech</h3>
+          <span class="job-role" data-i18n="exp.braza.role">Desenvolvedor Frontend</span>
+          <ul>
+            <li data-i18n="exp.braza.b1">Desenvolvi uma aplicação web financeira utilizada por milhares de usuários.</li>
+            <li data-i18n="exp.braza.b2">Criei componentes reutilizáveis em React, aumentando a consistência entre múltiplos projetos.</li>
+            <li data-i18n="exp.braza.b3">Integrei aplicações frontend com APIs REST e desenvolvi interfaces responsivas para um sistema de Back-office com PHP, HTML e CSS.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="job">
+        <div class="job-date">ABR 2021 — FEV 2022</div>
+        <div class="job-body">
+          <h3>Loumar Turismo</h3>
+          <span class="job-role" data-i18n="exp.loumar1.role">Desenvolvedor Frontend</span>
+          <ul>
+            <li data-i18n="exp.loumar1.b1">Desenvolvi aplicações web modernas com React, JavaScript, TailwindCSS e PHP.</li>
+            <li data-i18n="exp.loumar1.b2">Realizei manutenção e evolução de aplicações existentes: novas funcionalidades, correção de bugs, otimização de performance e integração de APIs REST.</li>
+          </ul>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <section class="section" id="projects">
+    <div class="section-head">
+      <span class="section-num">04</span>
+      <h2 data-i18n="projects.title">Projetos pessoais</h2>
+    </div>
+
+    <div class="projects-grid">
+
+      <article class="project-card">
+        <div class="project-top">
+          <span class="project-index">01</span>
+          <span class="project-status status-dev" data-i18n="projects.connecttop.status">Em desenvolvimento</span>
+        </div>
+        <h3>ConnectTop</h3>
+        <p data-i18n="projects.connecttop.body">
+          Aplicativo de gerenciamento de condomínios. A estrutura do condomínio (torres, andares, elementos) é mapeada em banco de dados, permitindo que moradores abram chamados de manutenção para itens específicos — por exemplo, a lâmpada do 2º andar da Torre X. Síndicos e porteiros podem registrar a manutenção, empresa responsável, valor e observações.
+        </p>
+        <div class="project-tags">
+          <span>React</span><span>Node.js</span><span>Database Design</span>
+        </div>
+        <div class="project-note" data-i18n="projects.connecttop.note">Em fase de testes reais — demo em vídeo em breve.</div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-top">
+          <span class="project-index">02</span>
+          <span class="project-status status-live" data-i18n="projects.sforzi.status">No ar</span>
+        </div>
+        <h3>Sforzi</h3>
+        <p data-i18n="projects.sforzi.body">
+          Landing page desenvolvida para uma escola particular. Um site simples e objetivo, criado como vitrine institucional, com formulário de contato direto para o e-mail da escola.
+        </p>
+        <div class="project-tags">
+          <span>React</span><span>Landing Page</span><span>Formulários</span>
+        </div>
+        <a href="https://sforzi.com.br/" target="_blank" rel="noopener noreferrer" class="project-link" data-i18n="projects.sforzi.link">Ver site ↗</a>
+      </article>
+
+      <article class="project-card">
+        <div class="project-top">
+          <span class="project-index">03</span>
+          <span class="project-status status-dev" data-i18n="projects.mystudio.status">Em desenvolvimento</span>
+        </div>
+        <h3>MyStudio</h3>
+        <p data-i18n="projects.mystudio.body">
+          Marketplace de agendamento de estúdios de música — um "iFood de estúdios". Donos cadastram seus espaços com fotos, localização e equipamentos; músicos buscam estúdios, consultam disponibilidade no calendário e solicitam agendamento, confirmado pelo dono. Pagamento tratado separadamente.
+        </p>
+        <div class="project-tags">
+          <span>Next.js</span><span>Marketplace</span><span>Booking System</span>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <section class="section" id="education">
+    <div class="section-head">
+      <span class="section-num">05</span>
+      <h2 data-i18n="education.title">Educação</h2>
+    </div>
+    <div class="edu-grid">
+      <div class="edu-card">
+        <div class="edu-date">2022 — 2024</div>
+        <h3 data-i18n="education.eng">Engenharia de Software</h3>
+        <span>Uniamérica Descomplica</span>
+      </div>
+      <div class="edu-card">
+        <div class="edu-date">2020 — 2022</div>
+        <h3 data-i18n="education.ads">Análise e Desenvolvimento de Sistemas</h3>
+        <span>Uniamérica Descomplica</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section contact-section" id="contact">
+    <div class="contact-inner">
+      <span class="section-num">06</span>
+      <h2 data-i18n="contact.title">Vamos construir algo juntos?</h2>
+      <a href="mailto:rauldomingos0907@gmail.com" class="contact-email">rauldomingos0907@gmail.com</a>
+      <div class="contact-links">
+        <a href="https://www.linkedin.com/in/raul-domingos" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+        <a href="mailto:rauldomingos0907@gmail.com">Email ↗</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <span>© 2026 Raul Rios Domingos</span>
+  <span data-i18n="footer.built">Feito com HTML, CSS e JavaScript.</span>
+</footer>
+
+<script src="assets/js/i18n.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
